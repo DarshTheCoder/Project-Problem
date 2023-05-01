@@ -1,0 +1,40 @@
+.copy_right_footer
+{
+    position:fixed;
+    bottom:0;
+    background-color:grey;
+    text-align:center;
+    color:aquamarine;
+    box-shadow:1px 1px 38px chocolate;
+    width:100%;
+}
+span{
+    color:yellow;
+}
+.heading{
+    font-size:23px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align:center;
+ background-color:aqua;   
+}
+.note
+{
+    font-size:13px;
+    background-color:brown;
+}
+canvas{
+    float:right;
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:darsh;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    background-color:white;
+
+}
+@keyframes darsh
+{
+from{box-shadow:1px 1px 38px green;}
+to{box-shadow:1px 1px 38px red;}
+
+}
